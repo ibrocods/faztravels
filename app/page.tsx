@@ -1,4 +1,4 @@
-import Hero from "./components/heroSection";
+import Hero from "./components/HeroSection";
 import FaqSection from "./components/FaqSection";
 import ReviewsSection from "./components/ReviewSection";
 // app/page.tsx
