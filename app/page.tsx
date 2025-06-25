@@ -1,14 +1,3 @@
-import Hero from "./components/HeroSection";
-import FaqSection from "./components/FaqSection";
-import ReviewsSection from "./components/ReviewSection";
-// app/page.tsx
 export default function Home() {
-  return (
-    <main>
-      <Hero/>
-      <ReviewsSection/>
-      <FaqSection/>
-      
-    </main>
-  );
+  return <h1>Hello from Home Page</h1>;
 }
