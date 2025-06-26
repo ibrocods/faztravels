@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <div className="px-4 md:px-10 lg:px-20 py-12 space-y-14 bg-white">
       {/* ========= VISION + MISSION SECTION ========= */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start pt-24"> 
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start pt-10"> 
      
         <div className="space-y-8">
           <div>
@@ -15,16 +15,16 @@ export default function AboutUs() {
               a future where every pilgrim can embark on their sacred journey with confidence, knowing that they
               are in the hands of a trusted and compassionate partner. We strive to be the bridge that connects the
               Muslim community to the Holy cities of Makkah and Madinah, facilitating a spiritually enriching experience
-              that fosters growth, peace and tranquility.
+              that fosters growth, peace and tranquility
             </p>
           </div>
           </div>
-          <div className="w-full h-80 md:h-full relative border-[3px] border-red-200 rounded-xl p-2">
+          <div className="w-auto h-auto max-w-[500px] min-h-[300px] md:h-full relative rounded-xl p-2">
           <Image
-            src="/placeholder.jpg" // Replace with real Kaaba image
+            src="/images/kaaba2.png" // Replace with real Kaaba image
             alt="Kaaba"
             fill
-            className="object-contain rounded-md"
+            className="object-fit rounded-md"
           />
         </div>
         </section>

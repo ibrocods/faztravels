@@ -16,7 +16,7 @@ export default function Hero() {
             "Experience the spiritual rejuvenation and divine connection that comes with performing these blessed pilgrimages"
           </p>
           <a href="#packages">
-          <button className="mt-6 bg-yellow-500 text-white py-2 px-6 rounded font-semibold hover:bg-yellow-600 transition-all">        
+          <button className="mt-6 bg-[#dc4141] text-white py-2 px-6 rounded font-semibold hover:bg-[#dc4120] transition-all">        
             Explore Packages 
           </button></a>
           
@@ -49,7 +49,7 @@ export default function Hero() {
               "Dedicated Support",
             ].map((item, i) => (
               <p key={i} className="flex items-start gap-2 text-gray-800 font-bold">
-                <span className="text-white bg-yellow-500 rounded-full w-6 h-6 flex items-center justify-center font-bold text-sm">
+                <span className="text-white bg-[#dc4141] rounded-full w-6 h-6 flex items-center justify-center font-bold text-sm">
                   {i + 1}
                 </span>
                 {item}

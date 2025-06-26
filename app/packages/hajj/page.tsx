@@ -2,8 +2,8 @@
 import Image from "next/image";
 
 const hajjPackages = [
-  { name: "Basic Package", image: "/packages/hajj/basic.jpg" },
-  { name: "Premium Hajj Package", image: "/packages/hajj/premium.jpg" },
+  { name: "Basic Package", image: "/images/kaaba2.png" },
+  { name: "Premium Hajj Package", image: "/images/premium_HP.png" },
   { name: "Economy Hajj Package", image: "/packages/hajj/economy.jpg" },
   { name: "Upgraded Basic Package", image: "/packages/hajj/upgrade.jpg" },
   { name: "Private Hajj Package", image: "/packages/hajj/private.jpg" },
@@ -23,9 +23,9 @@ export default function HajjPackagesPage() {
             <Image
               src={pkg.image}
               alt={pkg.name}
+              height={300}
               width={300}
-              height={200}
-              className="object-cover rounded mb-3"
+              className="rounded mb-3"
             />
             <h3 className="text-lg font-semibold text-center">{pkg.name}</h3>
             <button className="mt-3 bg-green-800 text-white px-4 py-2 rounded hover:bg-green-900">

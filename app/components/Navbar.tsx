@@ -61,7 +61,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/apply"
-                className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-700 transition"
+                className="bg-[#dc4141] text-white px-4 py-2 rounded hover:bg-[#dc4120] transition"
               >
                 Apply Now
               </Link>
@@ -106,7 +106,7 @@ export default function Navbar() {
             <Link href="/contact" className="block">Contact</Link>
             <Link
               href="/apply"
-              className="block bg-orange-500 text-white text-center py-2 rounded"
+              className="block bg-[#dc4141] text-white text-center py-2 rounded"
             >
               Apply Now
             </Link>

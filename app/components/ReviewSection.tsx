@@ -52,7 +52,7 @@ export default function PackagesAndReviews() {
         </div>
 
         <div className="flex justify-center mt-6">
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-2 rounded-lg font-semibold">
+          <button className="bg-[#dc4141] hover:bg-[#dc4120] text-white px-6 py-2 rounded-lg font-semibold">
             All Package
           </button>
         </div>
