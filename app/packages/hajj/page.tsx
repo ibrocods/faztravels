@@ -12,7 +12,7 @@ const hajjPackages = [
 
 export default function HajjPackagesPage() {
   return (
-    <div className="py-8 px-4 pt-24">
+    <div className="py-8 px-4 pt-24" id= "hajj_packages">
       <h2 className="text-2xl font-bold text-center mb-6">HAJJ PACKAGES</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {hajjPackages.map((pkg, index) => (

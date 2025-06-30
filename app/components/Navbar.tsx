@@ -36,21 +36,11 @@ export default function Navbar() {
       {/* Hajj Submenu */}
       <div>
       <Link href="/packages/hajj/" className="block hover:text-orange-500"><p className="font-semibold text-gray-900">Hajj Packages</p></Link>
-        <ul className="pl-3 mt-1 space-y-1">
-          <li><Link href="/packages/hajj/vip" className="block hover:text-orange-500">VIP</Link></li>
-          <li><Link href="/packages/hajj/basic" className="block hover:text-orange-500">Basic</Link></li>
-          <li><Link href="/packages/hajj/private" className="block hover:text-orange-500">Private</Link></li>
-        </ul>
       </div>
 
       {/* Umrah Submenu */}
       <div>
       <Link href="/packages/umrah/" className="block hover:text-orange-500"><p className="font-semibold text-gray-900">Umrah Packages</p></Link>
-        <ul className="pl-3 mt-1 space-y-1">
-          <li><Link href="/packages/umrah/budget" className="block hover:text-orange-500">Budget</Link></li>
-          <li><Link href="/packages/umrah/premium" className="block hover:text-orange-500">Premium</Link></li>
-          <li><Link href="/packages/umrah/group" className="block hover:text-orange-500">Group</Link></li>
-        </ul>
       </div>
     </div>
   )}
@@ -81,28 +71,8 @@ export default function Navbar() {
           <div className="md:hidden mt-2 space-y-3 pb-4">
             <Link href="/" className="block">Home</Link>
             <Link href="/about" className="block">About Us</Link>
-
-            {/* Mobile Hajj Dropdown */}
-            <details className="px-2">
-              <summary className="font-semibold cursor-pointer">Hajj Packages</summary>
-              <ul className="pl-4 space-y-1 mt-1 text-sm">
-                <li><Link href="/packages/hajj/vip">VIP Package</Link></li>
-                <li><Link href="/packages/hajj/basic">Basic Package</Link></li>
-                <li><Link href="/packages/hajj/private">Private Package</Link></li>
-                <li><Link href="/packages/hajj/economy">Economy Package</Link></li>
-              </ul>
-            </details>
-
-            {/* Mobile Umrah Dropdown */}
-            <details className="px-2">
-              <summary className="font-semibold cursor-pointer">Umrah Packages</summary>
-              <ul className="pl-4 space-y-1 mt-1 text-sm">
-                <li><Link href="/packages/umrah/budget">Budget Umrah</Link></li>
-                <li><Link href="/packages/umrah/premium">Premium Umrah</Link></li>
-                <li><Link href="/packages/umrah/family">Family Umrah</Link></li>
-              </ul>
-            </details>
-
+            <Link href="/packages/hajj/" className="block">Hajj Packages</Link>
+            <Link href="/packages/umrah/" className="block">Umrah Packages</Link>
             <Link href="/contact" className="block">Contact</Link>
             <Link
               href="/apply"

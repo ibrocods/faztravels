@@ -22,20 +22,28 @@ export default function Footer() {
         <div>
           <h2 className="text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4 text-white text-xl">
-            <FaFacebookF className="hover:text-gray-300 cursor-pointer" />
-            <FaTwitter className="hover:text-gray-300 cursor-pointer" />
-            <FaInstagram className="hover:text-gray-300 cursor-pointer" />
-            <FaTelegram className="hover:text-gray-300 cursor-pointer" />
-            <FaWhatsapp className="hover:text-gray-300 cursor-pointer" />
-            <FaLinkedinIn className="hover:text-gray-300 cursor-pointer" />
+            <a href = "https://facebook.com/faztravels" target= "_blank" rel = "noopener noreferrer" aria-lebel="Facebook">
+            <FaFacebookF className="hover:text-orange-300 cursor-pointer" /></a>
+            <a href = "https://twitter.com/faztravels" target= "_blank" rel = "noopener noreferrer" aria-lebel="Twitter">
+            <FaTwitter className="hover:text-orange-300 cursor-pointer" /></a>
+            <a href = "https://instagram.com/faztravels" target= "_blank" rel = "noopener noreferrer" aria-lebel="Instagram">
+            <FaInstagram className="hover:text-orange-300 cursor-pointer" /></a>
+            <a href = "https://Telegram.com/faztravels" target= "_blank" rel = "noopener noreferrer" aria-lebel="Telegram">
+            <FaTelegram className="hover:text-orange-300 cursor-pointer" /></a>
+            <a href = "https://wa.me/2348035047639" target= "_blank" rel = "noopener noreferrer" aria-lebel="WhatsApp">
+            <FaWhatsapp className="hover:text-orange-300 cursor-pointer" /></a>
+            <a href = "https://linkedin.com/faztravels" target= "_blank" rel = "noopener noreferrer" aria-lebel="Linked In">
+            <FaLinkedinIn className="hover:text-orange-300 cursor-pointer" /></a>
+            
           </div>
         </div>
 
         {/* Feedback */}
         <div>
           <h2 className="text-lg font-semibold mb-4">Feedback</h2>
+          <a href = "mailto:info@faztravels.com" target= "_blank" rel = "noopener noreferrer" aria-lebel="Email">
           <FaEnvelopeOpen className="mt-1" />
-          <FaEnvelopeOpen className="mt-1" />
+          <FaEnvelopeOpen className="mt-1" /></a>
         </div>
       </div>
 
@@ -52,12 +60,14 @@ export default function Footer() {
 
         {/* Email */}
         <div className="flex items-start space-x-2">
+          <a href = "mailto:info@faztravels.com" target= "_blank" rel = "noopener noreferrer" aria-lebel="Email">
         <FaEnvelope className="mt-1" />
           <div>
           
             <p>E-mail Us</p>
             
           </div>
+          </a>
         </div>
 
         {/* Address */}
